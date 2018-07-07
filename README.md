@@ -1,4 +1,4 @@
-####Add repository
+#Add repository
 
 ```xml
 <repositories>
@@ -12,7 +12,7 @@
     </repository>
 </repositories>
 ```
-####Add dependency to pom.xml
+#Add dependency to pom.xml
 
 ```xml
         <dependency>
@@ -21,7 +21,7 @@
             <version>1.0.13</version>
         </dependency>
 ```
-####Example for ApplicationComponent
+#Example for ApplicationComponent
 
 ```java
 ApplicationComponentsRestClient appCompsRestClient=Device42ClientFactory.createApplicationComponentsRestClient("https://example.device42.com","username","password");
