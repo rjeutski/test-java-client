@@ -15,11 +15,11 @@
 ### Add dependency to pom.xml
 
 ```xml
-        <dependency>
-            <groupId>com.device42</groupId>
-            <artifactId>d42-java-client</artifactId>
-            <version>1.0.13</version>
-        </dependency>
+<dependency>
+    <groupId>com.device42</groupId>
+     <artifactId>d42-java-client</artifactId>
+     <version>1.0.13</version>
+</dependency>
 ```
 ### Example for ApplicationComponent
 
