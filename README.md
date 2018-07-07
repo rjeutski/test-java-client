@@ -24,9 +24,7 @@
 ### Example for ApplicationComponent
 
 ```java
-ApplicationComponents RestClientappCompsRestClient=Device42ClientFactory.
-                                                   createApplicationComponentsRestClient
-                                                   ("https://example.device42.com","username","password");
+ApplicationComponentsRestClient appCompsRestClient=Device42ClientFactory.createApplicationComponentsRestClient("https://example.device42.com","username","password");
                                                    
 ApplicationComponentParameters.ApplicationComponentParametersBuilder appCompsParametersBuilder=
                                                     new ApplicationComponentParameters.ApplicationComponentParametersBuilder();
